@@ -4,6 +4,11 @@ export class UI {
     
     //clear input field after submition
      static clearFields(){
+         //focus in input firstname after submit
+        const firstName = document.querySelector("#firstName")
+        firstName.focus()
+
+
          document.querySelector("#firstName").value = "";
          document.querySelector("#lastName").value = "";
          document.querySelector("#id").value = "";

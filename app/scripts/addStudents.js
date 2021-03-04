@@ -10,7 +10,7 @@ export function addStudentToList(student) {
     <td>${student.firstName}</td>
     <td>${student.lastName}</td>
     <td>${student.id}</td>
-    <td class="td-button"> <div class="btn btn-sm btn-dark-1 edit">Edit</div>
+    <td class="td-button">
        <div class="btn btn-sm btn-red delete">Delete</div>
     </td>
     </tr> 

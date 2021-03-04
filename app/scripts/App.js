@@ -7,6 +7,7 @@ import {getStudents} from './getStudents.js';
 //listeners
 const submit = document.querySelector("#submit")
 
+
 //event: display students
 document.addEventListener("DOMContentLoaded", getStudents())
 
@@ -29,6 +30,7 @@ document.querySelector('#submit').addEventListener('click', (e)=>{
         
     //clear field after submition
     UI.clearFields()
+  
     }
 
 })
@@ -36,7 +38,9 @@ document.querySelector('#submit').addEventListener('click', (e)=>{
 document.getElementById('student-form').addEventListener('keyup', function(e) {
     if (e.key === "Enter") {
         submit.click()
+   
     }
+  
 });
 
 

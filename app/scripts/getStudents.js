@@ -5,6 +5,7 @@ import {addStudentToList} from './addStudents.js';
 //for now this is a hardcoded data
 
  export  function getStudents(){
+    
    //  const storedStudents = [
    //         {
    //            firstName: "Gwill Andrie",
